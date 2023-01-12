@@ -17,6 +17,6 @@ public class AnotherServiceTest {
   
     @Test
     public void helloTestNull(){
-        Assertions.assertEquals("Hello, Anonymous", testService.hello());
+        Assertions.assertEquals("Hello, Anonymous", testService.hello(null));
     }
 }

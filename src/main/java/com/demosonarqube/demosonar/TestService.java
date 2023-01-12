@@ -17,7 +17,7 @@ public class TestService {
             stringJoiner.add("Anonymous");
         }
 
-        if ("John".equals(name))
+        if ("John2".equals(name))
             stringJoiner.add("John");
         
         return stringJoiner.toString();

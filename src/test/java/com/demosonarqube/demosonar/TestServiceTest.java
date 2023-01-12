@@ -20,4 +20,9 @@ public class TestServiceTest {
     public void helloTest2John2(){
         Assertions.assertEquals("Hello, John2, John", testService.hello2("John2"));
     }
+    
+    @Test
+    public void helloTest2John(){
+        Assertions.assertEquals("Hello, John", testService.hello2("John"));
+    }
 }

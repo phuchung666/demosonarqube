@@ -27,6 +27,6 @@ public class TestServiceTest {
     
     @Test
     public void helloTest2John2(){
-        Assertions.assertEquals("Hello, John, John", testService.hello2("John2"));
+        Assertions.assertEquals("Hello, John2, John", testService.hello2("John2"));
     }
 }
